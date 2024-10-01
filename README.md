@@ -1,6 +1,10 @@
-First install python on local system
-https://www.python.org/downloads/
-install django using below command(note:set path to your envirnoment for python)
-Pip install django
 To clone this repository use 
-git clone 
+git clone https://github.com/sakhareamol/MYPROJECT.git
+cd MYPROJECTS
+cd mysite
+ls -lrt to check all files inside this folder
+update your system package using below command
+sudo apt-get update
+sudo apt install python3 pip -y
+sudo apt install django
+python3 manage.py runserver
